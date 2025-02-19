@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Plugin QRCode</title>
+    </properties>
+    <head>
+        <!-- Exemple de mots-clés : "cms, authentication, cms, workflow, seo, collaborative, ..." 
+             Utilisez la langue de ce xdoc -->
+        <meta name="keywords" content="" />
+    </head>
+    <body>
+        <section name="Plugin QR Code">
+            <section name="Introduction">
+                <p>
+                    Le plugin QRCode fournit des fonctionnalités pour générer et gérer des codes QR au sein de la plateforme Lutece.
+                </p>
+            </section>
+            <section name="Configuration">
+                <p>
+                    Pour configurer le plugin QRCode, suivez ces étapes :
+                </p>
+                <itemizedlist>
+                    <item>Installez le plugin en copiant le fichier JAR dans le répertoire <tt>WEB-INF/lib</tt> de votre application Lutece.</item>
+                    <item>Redémarrez l'application Lutece pour charger le plugin.</item>
+                    <item>Accédez à la page de configuration du plugin depuis l'interface d'administration de Lutece.</item>
+                </itemizedlist>
+            </section>
+            <section name="Utilisation">
+                <p>
+                    Pour utiliser le plugin QRCode, suivez ces étapes :
+                </p>
+                <itemizedlist>
+                    <item>Accédez à la page de génération de QRCode dans l'interface d'administration de Lutece.</item>
+                    <item>Saisissez le texte ou l'URL à encoder dans le code QR.</item>
+                    <item>Sélectionnez la taille souhaitée et le niveau de correction d'erreur pour le code QR.</item>
+                    <item>Cliquez sur le bouton "Générer" pour créer le code QR.</item>
+                    <item>Téléchargez l'image du code QR généré en cliquant sur le bouton "Télécharger".</item>
+                </itemizedlist>
+            </section>
+        </section>
+    </body>
+</document>

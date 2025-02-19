@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>QRCode Plugin</title>
+    </properties>
+    <head>
+        <!-- Keywords example : "cms, authentication, cms, workflow, seo, collaborative, ..." 
+             Use the language of this xdoc -->
+        <meta name="keywords" content="" />
+    </head>
+    <body>
+        <section name="Plugin QR Code">
+            <section name="Introduction">
+                <p>
+                    The QRCode plugin provides functionalities to generate and manage QR codes within the Lutece platform.
+                </p>
+            </section>
+            <section name="Configuration">
+                <p>
+                    To configure the QRCode plugin, follow these steps:
+                </p>
+                <itemizedlist>
+                    <item>Install the plugin by copying the JAR file to the <tt>WEB-INF/lib</tt> directory of your Lutece application.</item>
+                    <item>Restart the Lutece application to load the plugin.</item>
+                    <item>Access the plugin configuration page from the Lutece administration interface.</item>
+                </itemizedlist>
+            </section>
+            <section name="Usage">
+                <p>
+                    To use the QRCode plugin, follow these steps:
+                </p>
+                <itemizedlist>
+                    <item>Navigate to the QRCode generation page in the Lutece administration interface.</item>
+                    <item>Enter the text or URL to be encoded into the QR code.</item>
+                    <item>Select the desired size and error correction level for the QR code.</item>
+                    <item>Click the "Generate" button to create the QR code.</item>
+                    <item>Download the generated QR code image by clicking the "Download" button.</item>
+                </itemizedlist>
+            </section>
+        </section>
+    </body>
+</document>
